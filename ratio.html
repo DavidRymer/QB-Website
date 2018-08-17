@@ -23,18 +23,18 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">QB Tutorials</a>
+        <a class="navbar-brand" href="#">Numbers</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home
+              <a class="nav-link" href="#">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
@@ -57,97 +57,89 @@
 
       <!-- Jumbotron Header -->
       <header class="jumbotron my-4">
-        <center>
-          <h1 class="display-3">Welcome!</h1>
-        </center>    
-      
+        <h1 class="display-3">QB Tutorials</h1>
+        <p class="lead">Whatever your goal is in GCSE maths we are dedicated to helping you achieve the grade that you desire. Feel free to explore the resources we have or contact one of our tutors for a private session.</p>
+        <a href="register.html" class="btn btn-primary btn-lg">Register</a>
       </header>
-    </div>
-    <!-- /.container -->
-      
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
+<style>        
+        body {
+    font-family: "Lato", sans-serif;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
+.sidenav {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
-/* Overwrite default styles of hr */
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 66px;
-
-
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
 }
 
-/* Set a style for the submit button */
-.registerbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
+.sidenav a:hover {
+    color: #f1f1f1;
 }
 
-.registerbtn:hover {
-    opacity: 1;
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
 }
 
-/* Add a blue text color to links */
-a {
-    color: dodgerblue;
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
-
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-    background-color: #f1f1f1;
-    text-align: center;
-}
+    
+  
 </style>
-</head>
+
 <body>
 
+<div class="sidenav">
+  <a href="#">.</a>
+  <a href="number.html">Number</a>
+  <a href="algebra.html">Algebra</a>
+  <a href="ratio.html">Ratio, Proportion and Rates of Change</a>
+  <a href="geometry.html">Geometry and Measures</a>
+  <a href="trigonometry.html">Trigonometry</a>
+  <a href="statistics.html">Statistics and Probability</a>
+</div>
+    
+      <!-- Page Features -->
+      <div>
+      <h1>Ratio, Proportion and Rates of Change</h1>
+          
+<div>
+  <a href="Ratios.html">Ratios</a><br>
+  <a href="Proportion.html">Proportion</a><br>
+  <a href="RatesofChange.html">Rates of Change</a><br>
+  <a href="CompoundMeasures.html">Compound Measures</a><br>
+  <a href="ConversionsofAreaandVolume.html">Conversions of Area and Volume</a><br>
+  <a href="Gradients&Graphs.html">Gradients & Graphs</a><br>
+  <a href="Measurements.html">Measurements</a><br>
+  <a href="ScaleDiagrams.html">Scale Diagrams</a><br>
+  <a href="SimpleandCompoundInterest.html">Simple and Compound Interest</a><br>
+</div>
+          
 
-<form action="/action_page.php">
-  <div class="container">
-    <h1>Register</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
+      </div>
+      <!-- /.row -->
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+    </div>
+     
+    <!-- /.container -->
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-    <hr>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-</form>
- 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
@@ -161,6 +153,5 @@ a {
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
-    
 
 </html>
